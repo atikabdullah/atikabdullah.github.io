@@ -1,0 +1,117 @@
+*{margin: 0;  padding: 0;outline: 0;}
+body{font-family: arial;font-size: 18px; line-height: 18px; color: #000;}
+
+.template {width: 1000px; background: #ddd;  margin: 0 auto;}
+.clear{overflow: hidden;}
+.headersection { background-color: #2D2D2E; color: #fff;}
+.logo{ float:left; width: 430px;}
+.logo img{
+    float: left;
+    margin-right:15px;
+    padding-bottom:10px;
+    width: 70px
+}
+.logo p{}
+.social{ float: right; padding-top: 25px;
+width: 255px}
+.social img{width:40px}
+
+
+
+
+.navsection{ background-color: #989898;}
+.navsection ul {margin:0; padding: 0; list-style: none;}
+.navsection ul li{display: block; float: left; }
+.navsection ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 2px;
+    background: #9898A1;
+    margin: 5px;
+    color: #BABC39;
+    margin-right: 27px;
+    margin-left: 16px;
+}
+.navsection ul li a:hover { color:green;}
+.maincontent {
+    width: 680px;
+    float: left;
+    background-color: #DEDEDE;
+    padding: 10px;
+    margin: 15px 15px 15px 0;
+    border: 2px solid #989942;
+}
+.samepost{}
+.samepost h3 {
+    font-weight: bold;
+    background: #989898;
+    padding: 11px;
+    font-size: 26px;
+    border-bottom: 3px solid black;
+    margin-bottom: 5px;
+}
+.samepost img {
+    float: left;
+    margin-right: 20px;
+    background: white;
+    padding: 7px;
+    border: 1px solid green;
+}
+.samepost p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+.readmore { display: block; margin-bottom:10px;}
+.readmore a {
+    float: right;
+    text-decoration: none;
+    display: block;
+    background: white;
+    padding: 10px 10px;
+    color: #868181;
+    border: 1px solid;
+}
+.readmore :hover{
+    color: green;
+}
+.sidebar {
+    width: 255px;
+    float: right;
+    background: #BABABA;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    border: 2px solid #989B3D;
+}
+.samesidebar{margin-bottom: 20px}
+.samesidebar h2{text-align: center;
+    margin-bottom: 10px;
+    background: #868181;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: solid 5px #555555;}
+.samesidebar p{}
+.footer{height: 90px; background-color: #555555; text-align: center}
+.footermenu{}
+.footermenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 24px;
+}
+.footermenu li{display: inline-block;}
+.footermenu a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px;
+}
+.footermenu a:hover{color:black;}
+.footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 6px;
+}
